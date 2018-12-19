@@ -2,6 +2,7 @@
 title: 使用Hexo搭建技术博客
 author: w-g-w
 date: 2018-12-12 17:08:00
+categories: Hexo
 tags: [Hexo, Blog]
 typora-root-url: ./
 ---
