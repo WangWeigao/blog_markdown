@@ -41,6 +41,16 @@ npm install
 hexo server
 ```
 
+### 给github库建立软链接
+
+```bash
+cd /home/ubuntu/blog_markdown/source
+mv _posts _posts.bak
+ln -s /usr/local/src/blog_markdown .
+```
+
+
+
 ### 实时生成静态文件
 
 ```bash
@@ -192,3 +202,4 @@ systemctl start webhook
 
 ### 查看网站是否更新
 
+> 如我的个人博客: https://blog.7python.com
