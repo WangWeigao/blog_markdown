@@ -94,7 +94,7 @@ server {
     location = /favicon.ico { access_log off; log_not_found off; }
 
     # 此处为了与本地图片文件夹对应
-    location /images/ {
+    location /post_images/ {
         root /usr/local/src/blog_markdown/;
     }
 }
@@ -107,7 +107,7 @@ server {
 
 官方网站上有详细介绍, 按步骤操作即可
 
-![certbot-auto](/images/certbot-auto.png)
+![certbot-auto](/post_images/certbot-auto.png)
 
 > 上图只截取了部分内容, 具体操作见[官网](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx)
 
@@ -140,11 +140,11 @@ sudo git clone git@github.com:your-github-name/blog_markdown.git
 
 ## 配置webhook
 
-![添加webhook](/images/配置github的webhook.png)
+![添加webhook](/post_images/配置github的webhook.png)
 
 > 上图是**GitHub**中webhook配置的位置
 
-![填写Webhook配置](/images/webhook配置填写.png)
+![填写Webhook配置](/post_images/webhook配置填写.png)
 
 > 上图中的地址要按照自己服务器的实际地址填写
 
@@ -196,7 +196,7 @@ systemctl start webhook
 - 在本地添加新的markdown文件**『如: test.md』**, 并且推送到github
 - 查看**webhook**的执行记录
 
-![webhook执行记录](/images/webhook执行记录.png)
+![webhook执行记录](/post_images/webhook执行记录.png)
 
 > 如果推送记录显示成功, 则说明请求webhook server端成功
 
@@ -204,7 +204,7 @@ systemctl start webhook
 
 ### 查看本地是否获取新的markdown文件
 
-![查看本地是否获取最新文件](/images/查看本地是否获取最新文件.png)
+![查看本地是否获取最新文件](/post_images/查看本地是否获取最新文件.png)
 
 ### 查看网站是否更新
 
