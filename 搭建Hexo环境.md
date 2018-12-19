@@ -7,7 +7,13 @@ tags: [Hexo, Blog]
 typora-root-url: ./
 ---
 
+  
 
+本文最终的实现效果为:
+
+写markdown文件 -> 推送到Github -> 网站自动更新
+
+<!-- more -->
 
 # 使用Hexo搭建技术博客
 
